@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b5121b;
+    padding-right: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.centinelapag {
+    background-image: url('imagenes/banner.png');
+    color: white;
+    justify-content: center;
+}
+
+button {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #1d1b1b;
+    background-color: #ffd60a;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+body, main {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    background-color: #f7f3e9;
+    margin: 10px;
+    padding: 20px;
+
+}
